@@ -2,6 +2,8 @@
 
 [English](./README.md) | 中文文档
 
+> 一个基于 Vue 3 + Spring Boot 3 构建的现代化船舶管理平台。从船舶档案到航次调度，一站式管理您的船队。
+
 ---
 
 <div align="center">
@@ -13,6 +15,11 @@
 ![Redis](https://img.shields.io/badge/Redis-Latest-DC382D?logo=redis)
 ![Java](https://img.shields.io/badge/Java-17-ED8B00?logo=java)
 ![License](https://img.shields.io/badge/License-MIT-green)
+![GitHub stars](https://img.shields.io/github/stars/Dvesiz/Ship-Management-System?style=social)
+![GitHub forks](https://img.shields.io/github/forks/Dvesiz/Ship-Management-System?style=social)
+![GitHub last commit](https://img.shields.io/github/last-commit/Dvesiz/Ship-Management-System)
+![GitHub repo size](https://img.shields.io/github/repo-size/Dvesiz/Ship-Management-System)
+![GitHub issues](https://img.shields.io/github/issues/Dvesiz/Ship-Management-System)
 
 <img width="1919" height="902" alt="image" src="https://github.com/user-attachments/assets/37e66d3e-4755-46b3-bc86-f55be8065cd0" />
 <img width="1919" height="918" alt="7b925b9d7a1a1a2d17b4201fa836fbe6" src="https://github.com/user-attachments/assets/fba76e08-67fc-4ece-88a8-056cfc943c60" />
@@ -46,6 +53,15 @@
 - **完整性** - 覆盖船舶管理全业务流程
 - **安全性** - 多层安全防护，保障数据安全
 - **扩展性** - 模块化设计，易于功能扩展
+
+---
+
+### ✨ 项目亮点
+
+> 🚢 **8 大业务模块** — 船舶、船员、航次、维护、燃油、证书、消息、日志全覆盖
+> 🔐 **企业级安全** — JWT + Redis + RBAC + Cloudflare Turnstile 多重防护
+> 📊 **数据可视化** — ECharts 统计图表，支持 Excel/PDF 一键导出
+> 🏗️ **现代化架构** — Vue 3 Composition API + Spring Boot 3 + MyBatis-Plus
 
 ---
 
@@ -171,8 +187,8 @@
 ### 1. 克隆项目
 
 ```bash
-git clone https://github.com/your-repo/ship-management-system.git
-cd ship-management-system
+git clone https://github.com/Dvesiz/Ship-Management-System.git
+cd Ship-Management-System
 ```
 
 ### 2. 数据库配置
