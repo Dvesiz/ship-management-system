@@ -2,6 +2,8 @@
 
 [中文文档](./README_CN.md) | English
 
+> A modern, full-featured ship management platform built with Vue 3 + Spring Boot 3. Manage your fleet efficiently from vessel registration to voyage scheduling.
+
 ---
 
 <div align="center">
@@ -13,6 +15,11 @@
 ![Redis](https://img.shields.io/badge/Redis-Latest-DC382D?logo=redis)
 ![Java](https://img.shields.io/badge/Java-17-ED8B00?logo=java)
 ![License](https://img.shields.io/badge/License-MIT-green)
+![GitHub stars](https://img.shields.io/github/stars/Dvesiz/Ship-Management-System?style=social)
+![GitHub forks](https://img.shields.io/github/forks/Dvesiz/Ship-Management-System?style=social)
+![GitHub last commit](https://img.shields.io/github/last-commit/Dvesiz/Ship-Management-System)
+![GitHub repo size](https://img.shields.io/github/repo-size/Dvesiz/Ship-Management-System)
+![GitHub issues](https://img.shields.io/github/issues/Dvesiz/Ship-Management-System)
 
 <img width="1919" height="902" alt="image" src="https://github.com/user-attachments/assets/37e66d3e-4755-46b3-bc86-f55be8065cd0" />
 <img width="1919" height="918" alt="7b925b9d7a1a1a2d17b4201fa836fbe6" src="https://github.com/user-attachments/assets/fba76e08-67fc-4ece-88a8-056cfc943c60" />
@@ -45,6 +52,15 @@ Ship Management System is a modern full-stack web application built with **Vue 3
 - **Comprehensive** - Full coverage of ship management workflows
 - **Secure** - Multi-layer security protection for data safety
 - **Extensible** - Modular design for easy feature expansion
+
+---
+
+### ✨ Highlights
+
+> 🚢 **8 Business Modules** — Ships, Crew, Voyages, Maintenance, Fuel, Certificates, Messages, Logs
+> 🔐 **Enterprise Security** — JWT + Redis + RBAC + Cloudflare Turnstile
+> 📊 **Data Visualization** — ECharts dashboards with Excel/PDF export
+> 🏗️ **Modern Architecture** — Vue 3 Composition API + Spring Boot 3 + MyBatis-Plus
 
 ---
 
@@ -170,8 +186,8 @@ Ship Management System is a modern full-stack web application built with **Vue 3
 ### 1. Clone the Project
 
 ```bash
-git clone https://github.com/your-repo/ship-management-system.git
-cd ship-management-system
+git clone https://github.com/Dvesiz/Ship-Management-System.git
+cd Ship-Management-System
 ```
 
 ### 2. Database Configuration
@@ -325,7 +341,7 @@ All business modules support batch deletion:
 
 ## Recent Updates
 
-### 2025-01-31 Important Updates ✅
+### 2026-01-31 Important Updates ✅
 
 1. **Security Improvements**
    - ✅ Fixed JWT key hardcoding, support application.yml configuration
